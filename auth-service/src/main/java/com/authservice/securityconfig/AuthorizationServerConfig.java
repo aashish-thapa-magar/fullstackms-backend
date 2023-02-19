@@ -57,8 +57,8 @@ public class AuthorizationServerConfig {
 	@Bean
 	public RegisteredClientRepository registeredClientRepository() {
 		RegisteredClient registeredClient = RegisteredClient.withId(UUID.randomUUID().toString())
-				.clientId("789948123605-28gfqtsgktcpo1c0i9j1a1nc6imj6r62.apps.googleusercontent.com")
-				.clientSecret("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")
+				.clientId("xxx")
+				.clientSecret("xxx")
 				.clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_BASIC)
 				.authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
 				.authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
